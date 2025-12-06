@@ -79,7 +79,10 @@
         <!-- My Indroduction -->
         <h1>My Introduction</h1>
         <h3>Babai Bose</h3>
-        <p>Hi my name is Babai Bose and I am a coding instructor at Codingal</p>
+        <p>
+          Hi my name is Babai Bose and I am a coding instructor at
+          <span>Condingal</span>
+        </p>
       </article>
 
       <!-- List article -->
@@ -98,8 +101,8 @@
         </ol>
 
         <p>
-          We need to learn the following technologies to create SPA using MERN
-          stack:
+          We need to learn the following technologies to create SPA using
+          <span>MERN Stack</span>:
         </p>
         <!-- ordered list -->
         <ol>
@@ -229,8 +232,12 @@
     <!-- form section -->
     <section>
       <form action="">
+        <!-- The fieldset creates a group of inputs -->
         <fieldset>
+          <!-- The hedig of the fieldset input groups -->
           <legend>Personal Details</legend>
+
+          <!-- text input field for name -->
           <label for="name">Name</label>
           <input
             type="text"
@@ -239,10 +246,16 @@
             placeholder="John Doe"
             required
           />
+
+          <!-- number input field for age -->
           <label for="age">Age</label>
           <input type="number" id="age" name="age" placeholder="19" required />
+
+          <!-- date input field for date -->
           <label for="dob">DOB</label>
           <input type="date" id="age" name="dob" required />
+
+          <!-- select input field for name -->
           <label for="tech">Technology to learn</label>
           <select name="tech" id="tech">
             <option value="">Select</option>
@@ -250,8 +263,10 @@
             <option value="node">Node Js</option>
             <option value="python">Python</option>
           </select>
+
           <fieldset>
             <legend>Gender</legend>
+            <!-- radio buttons and the user and select only one option -->
             <label for="gender">
               <input
                 type="checkbox"
@@ -260,6 +275,7 @@
                 value="Male"
               />Male</label
             >
+
             <label for="gender">
               <input
                 type="checkbox"
@@ -268,6 +284,7 @@
                 value="Female"
               />Female</label
             >
+
             <label for="gender">
               <input
                 type="checkbox"
